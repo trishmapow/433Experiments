@@ -1,8 +1,15 @@
+/*
+Testing transmit script for generic 433MHz transmitter.
+By trishmapow, 1 July 2016
+*/
+
 #define rf 12
 #define led 13
 
 void setup() {
   pinMode(rf, OUTPUT);
+  
+  //Live indication of data
   pinMode(led, OUTPUT);
 }
 
